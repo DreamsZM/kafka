@@ -20,6 +20,7 @@ import org.apache.kafka.connect.connector.Connector;
 
 /**
  * SinkConnectors implement the Connector interface to send Kafka data to another system.
+ * TODO: connector 模块是kafka和其他组件进行交互的接口
  */
 public abstract class SinkConnector extends Connector {
 
